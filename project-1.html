@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 1</title>
+    <title>Image Explorer</title>
     <meta name="description" content="Case study page of Project" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -84,58 +84,60 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 1</h1>
+        <h1 class="heading-primary">Image Explorer</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+            A touch-based image exploration system for blind or visually impaired (BVI) users to obtain information from images of their choice
+            on the tip of their fingers.
           </p>
         </div>
-        <div class="project-cs-hero__cta">
+        <!-- <div class="project-cs-hero__cta">
           <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
-        </div>
+        </div> -->
       </div>
     </section>
     <section class="project-details">
       <div class="main-container">
         <div class="project-details__content">
-          <div class="project-details__showcase-img-cont">
+          <!-- <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
+              src="./assets/png/imageexplorer.png"
               alt="Project Image"
               class="project-details__showcase-img"
             />
-          </div>
+          </div> -->
           <div class="project-details__content-main">
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                Image Explorer is a research project conducted at the University of Michigan Human-AI Lab mentored by Professor Anhong Guo. The project aims to develop a touch-based image exploration application for blind or visually impaired (BVI) users called Image Explorer. The system presents hierarchical object information with a customizable level of information granularity. Designed to be compatible with voiceover,
+                BVI users can easily navigate through the app with the help of screen readers.
               </p>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
+                For each image that users upload, we will first show a summary page, showing an overview of the main contexts of the image.
+                It presents image captioning, image tags, and the count and positional information of the primary objects in the image. 
               </p>
               <div class="project-details__showcase-img-cont">
                 <img
-                  src="./assets/jpeg/dier_profile.jpg"
+                  src="./assets/png/image_explorer_summary.png"
                   alt="Project Image"
                   class="project-details__showcase-img"
                 />
-                <iframe width="800" height="300"
-                src="https://www.youtube.com/embed/YQHsXMglC9A">
-                </iframe>
               </div>
+              <p class="project-details__desc-para">
+                After exploring the summary page, users can navigate to image layer screen, where users can move their fingers to explore objects and their hierarchical layouts. As the user move their fingers across the screen, 
+                the application will give audio prompt about which object their fingers have entered. A background sound is played when their fingers are not inside any object. By double clicking on an object, users can explore its sub objects and gain detailed information about this object.
+              </p>
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/png/imageexplorer.png"
+                  alt="Project Image"
+                  class="project-details__showcase-img"
+                />
+              </div>
+              <p class="project-details__desc-para">
+                Here's a video demo of how image explorer works.
+              </p>
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
