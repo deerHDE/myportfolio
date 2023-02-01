@@ -291,6 +291,7 @@ textarea {
   .projects__row:last-child {
     margin-bottom: 0; }
   .projects__row-img-cont {
+    width: 95%;
     overflow: hidden; }
   .projects__row-img {
     width: 100%;
@@ -534,6 +535,13 @@ textarea {
     object-fit: cover;
     object-position: center;
     display: block; }
+    .header__logo-img-cont:hover {
+    transform: scale(2);
+    /* transform: translate(50px, 100px); */
+  }
+  .name-color {
+    color: #f3eb59;
+  }
   .header__logo-sub {
     font-size: 1.8rem;
     text-transform: uppercase;
